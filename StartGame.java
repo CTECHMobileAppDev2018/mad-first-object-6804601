@@ -17,11 +17,11 @@ public class StartGame {
     
     System.out.println(player2.getName() + "'s health is: " + player2.getHealth());
 
-  Attack gun1 = new Attack("Better Devils", 25);
+  Attack gun0 = new Attack("Better Devils", 25);
   System.out.println("You have two weapons in your inventory, one of them is: " + gun1.getName() );
   System.out.println("The damage that it will deal is: "+gun1.getDmg());
   
-  Attack gun2 = new Attack("Last word", 30);
+  Attack gun1 = new Attack("Last word", 30);
   System.out.println("You have two weapons in your inventory, the other is: " + gun2.getName() );
   System.out.println("The damage that it will deal is: "+gun2.getDmg());
   }

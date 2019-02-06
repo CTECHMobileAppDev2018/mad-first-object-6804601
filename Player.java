@@ -14,7 +14,7 @@ public class Player {
   // next we have "setters" and "getters"
   // these allow us to set and get properties, including doing some error checking
   public void setName(String playerName) { 
-
+    
     // first let's make sure the length of the name is longer than 0
     if (playerName.length() < 1) {
       this.name = "invalid";
@@ -37,4 +37,9 @@ public class Player {
   public int getHealth(){
     return this.health;
   }
+  Attack[]weaponArray = new Attack[2];
+  Attack weapon0 = new Attack();
+  gun0.setName("Better Devils");
+  gun0.setDmg(25);
+  
 }
